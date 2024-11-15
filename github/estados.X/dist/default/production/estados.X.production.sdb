@@ -1,0 +1,643 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"40 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[e E1927 estado `uc
+INIT 0
+MONITOREO 1
+ALARMA 2
+ALERTA 3
+EVENTOS 4
+BLOQUEADO 5
+]
+"6 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\adc.c
+[v _adc_init adc_init `(v  1 e 1 0 ]
+"18
+[v _adc_read adc_read `(ui  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\KEYPAD.c
+[v _keypad_init keypad_init `(v  1 e 1 0 ]
+"57
+[v _keypad_getkey keypad_getkey `(uc  1 e 1 0 ]
+"53 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\LCD.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"77
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"106
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"121
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"131
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+"162
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"169
+[v _LCD_Custom_Char LCD_Custom_Char `(v  1 e 1 0 ]
+"76 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[v _delay_ms_variable delay_ms_variable `(v  1 e 1 0 ]
+"97
+[v _main main `(v  1 e 1 0 ]
+"207
+[v _secuencia5 secuencia5 `(v  1 e 1 0 ]
+"245
+[v _monitoreo monitoreo `(v  1 e 1 0 ]
+"313
+[v _blink_led blink_led `(v  1 e 1 0 ]
+"340
+[v _secuencia6 secuencia6 `(v  1 e 1 0 ]
+"368
+[v _seguridad seguridad `(v  1 e 1 0 ]
+"413
+[v _eventos eventos `(v  1 e 1 0 ]
+"431
+[v _Timer1_ISR Timer1_ISR `II(v  1 e 1 0 ]
+"470
+[v _alarma alarma `(v  1 e 1 0 ]
+"29 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\timer.c
+[v _Timer1_start Timer1_start `(v  1 e 1 0 ]
+[s S320 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+`uc 1 RP 1 0 :2:5 
+`uc 1 IRP 1 0 :1:7 
+]
+"99 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic16f887.h
+[s S328 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RP0 1 0 :1:5 
+`uc 1 RP1 1 0 :1:6 
+]
+[s S332 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S336 . 1 `S320 1 . 1 0 `S328 1 . 1 0 `S332 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES336  1 e 1 @3 ]
+[s S274 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S283 . 1 `S274 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES283  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S159 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"307
+[u S168 . 1 `S159 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES168  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S357 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"427
+[u S362 . 1 `S357 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES362  1 e 1 @9 ]
+[s S380 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S388 . 1 `S380 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES388  1 e 1 @12 ]
+"650
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"671
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S37 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1276
+[s S42 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S51 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S54 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S57 . 1 `S37 1 . 1 0 `S42 1 . 1 0 `S51 1 . 1 0 `S54 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES57  1 e 1 @31 ]
+[s S107 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1366
+[s S114 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S118 . 1 `S107 1 . 1 0 `S114 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES118  1 e 1 @129 ]
+[s S236 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1433
+[u S245 . 1 `S236 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES245  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"1862
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"2970
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S22 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2991
+[u S28 . 1 `S22 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES28  1 e 1 @159 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3900
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4044
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4374
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"4377
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"4380
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"153 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"27 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\LCD.c
+[v _character1 character1 `[8]uc  1 e 8 0 ]
+"28
+[v _character2 character2 `[8]uc  1 e 8 0 ]
+"29
+[v _character3 character3 `[8]uc  1 e 8 0 ]
+"30
+[v _character4 character4 `[8]uc  1 e 8 0 ]
+"31
+[v _character5 character5 `[8]uc  1 e 8 0 ]
+"40 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[v _estadoactual estadoactual `E1927  1 e 1 0 ]
+"50
+[v _password password `DC[6]uc  1 e 6 0 ]
+"51
+[v _pass_user pass_user `[6]uc  1 e 6 0 ]
+"52
+[v _idx idx `uc  1 e 1 0 ]
+"53
+[v _intentos intentos `i  1 e 2 0 ]
+"55
+[v _count_5sec count_5sec `i  1 e 2 0 ]
+"56
+[v _flag_count_5sec flag_count_5sec `uc  1 e 1 0 ]
+"59
+[v _count_2sec count_2sec `i  1 e 2 0 ]
+"60
+[v _flag_count_2sec flag_count_2sec `uc  1 e 1 0 ]
+"63
+[v _count_10sec count_10sec `i  1 e 2 0 ]
+"64
+[v _flag_count_10sec flag_count_10sec `uc  1 e 1 0 ]
+"67
+[v _count_800ms count_800ms `i  1 e 2 0 ]
+"68
+[v _flag_count_800ms flag_count_800ms `uc  1 e 1 0 ]
+"71
+[v _count_500ms count_500ms `i  1 e 2 0 ]
+"72
+[v _flag_count_500ms flag_count_500ms `uc  1 e 1 0 ]
+"95
+[v _flag_correcto flag_correcto `uc  1 e 1 0 ]
+"97
+[v _main main `(v  1 e 1 0 ]
+{
+"206
+} 0
+"368
+[v _seguridad seguridad `(v  1 e 1 0 ]
+{
+"369
+[v seguridad@key key `uc  1 a 1 19 ]
+"411
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@l l `*.4DCuc  1 p 1 3 ]
+[v strncmp@r r `*.24DCuc  1 p 1 4 ]
+[v strncmp@n n `ui  1 p 2 5 ]
+"8
+} 0
+"57 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\KEYPAD.c
+[v _keypad_getkey keypad_getkey `(uc  1 e 1 0 ]
+{
+"59
+[v keypad_getkey@letras letras `[4][4]uc  1 a 16 0 ]
+"63
+[v keypad_getkey@i i `i  1 a 2 17 ]
+"64
+[v keypad_getkey@valor valor `uc  1 a 1 16 ]
+"57
+[v keypad_getkey@F1424 F1424 `[4][4]uc  1 s 16 F1424 ]
+"107
+} 0
+"340 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[v _secuencia6 secuencia6 `(v  1 e 1 0 ]
+{
+"355
+[v secuencia6@i_495 i `i  1 a 2 16 ]
+"343
+[v secuencia6@i i `i  1 a 2 14 ]
+"351
+[v secuencia6@var4 var4 `VEui  1 a 2 28 ]
+[v secuencia6@var3 var3 `VEui  1 a 2 26 ]
+[v secuencia6@var34 var34 `VEui  1 a 2 24 ]
+"342
+[v secuencia6@var2 var2 `VEui  1 a 2 22 ]
+[v secuencia6@var1 var1 `VEui  1 a 2 20 ]
+[v secuencia6@var12 var12 `VEui  1 a 2 18 ]
+"364
+} 0
+"313
+[v _blink_led blink_led `(v  1 e 1 0 ]
+{
+[v blink_led@led led `uc  1 p 1 wreg ]
+"314
+[v blink_led@elapsed_time elapsed_time `ui  1 a 2 8 ]
+"313
+[v blink_led@led led `uc  1 p 1 wreg ]
+[v blink_led@on_time on_time `ui  1 p 2 0 ]
+[v blink_led@off_time off_time `ui  1 p 2 2 ]
+[v blink_led@duration duration `ui  1 p 2 4 ]
+[v blink_led@led led `uc  1 p 1 10 ]
+"338
+} 0
+"76
+[v _delay_ms_variable delay_ms_variable `(v  1 e 1 0 ]
+{
+[v delay_ms_variable@ms ms `ui  1 p 2 3 ]
+"80
+} 0
+"207
+[v _secuencia5 secuencia5 `(v  1 e 1 0 ]
+{
+"228
+[v secuencia5@i_453 i `i  1 a 2 9 ]
+"212
+[v secuencia5@i i `i  1 a 2 7 ]
+"227
+[v secuencia5@var3 var3 `VEui  1 a 2 21 ]
+"208
+[v secuencia5@var2 var2 `VEui  1 a 2 19 ]
+[v secuencia5@var1 var1 `VEui  1 a 2 17 ]
+"227
+[v secuencia5@var4 var4 `VEui  1 a 2 15 ]
+[v secuencia5@var34 var34 `VEui  1 a 2 13 ]
+"208
+[v secuencia5@var12 var12 `VEui  1 a 2 11 ]
+"242
+} 0
+"245
+[v _monitoreo monitoreo `(v  1 e 1 0 ]
+{
+"248
+[v monitoreo@StringTemperature StringTemperature `[20]uc  1 a 20 48 ]
+"255
+[v monitoreo@luz luz `ui  1 a 2 74 ]
+"261
+[v monitoreo@value_adc value_adc `i  1 a 2 72 ]
+"254
+[v monitoreo@temperatura temperatura `ui  1 a 2 70 ]
+"247
+[v monitoreo@celsius celsius `i  1 a 2 68 ]
+"272
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S949 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+"13
+[s S952 _IO_FILE 11 `S949 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S952  1 a 11 34 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 33 ]
+"9
+[v sprintf@s s `*.4uc  1 p 1 26 ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 27 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 7 ]
+[s S984 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S984  1 p 2 22 ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 24 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 25 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S997 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S997  1 a 4 17 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 21 ]
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 16 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 15 ]
+[s S984 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S984  1 p 2 9 ]
+[v vfpfcnvrt@fmt fmt `*.30*.24uc  1 p 1 11 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 12 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 3 ]
+[u S949 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+[s S952 _IO_FILE 11 `S949 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S952  1 p 2 5 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 2 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 1 ]
+[v ___awmod@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 3 ]
+[v ___awmod@dividend dividend `i  1 p 2 5 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 3 ]
+[v ___awdiv@dividend dividend `i  1 p 2 5 ]
+"41
+} 0
+"18 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\adc.c
+[v _adc_read adc_read `(ui  1 e 2 0 ]
+{
+"26
+[v adc_read@value_adc value_adc `ui  1 a 2 5 ]
+"18
+[v adc_read@channel channel `i  1 p 2 3 ]
+"29
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 3 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 4 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 44 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 36 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S802 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S807 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S810 . 4 `l 1 i 4 0 `d 1 f 4 0 `S802 1 fAsBytes 4 0 `S807 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S810  1 a 4 30 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 24 ]
+[s S879 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S882 . 2 `s 1 i 2 0 `us 1 n 2 0 `S879 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S882  1 a 2 34 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 29 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 28 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 23 ]
+"8
+[v ___flmul@b b `d  1 p 4 10 ]
+[v ___flmul@a a `d  1 p 4 14 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 3 ]
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 4 ]
+"60
+} 0
+"38 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\KEYPAD.c
+[v _keypad_init keypad_init `(v  1 e 1 0 ]
+{
+"43
+} 0
+"413 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[v _eventos eventos `(v  1 e 1 0 ]
+{
+"429
+} 0
+"470
+[v _alarma alarma `(v  1 e 1 0 ]
+{
+"489
+} 0
+"131 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\LCD.c
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+{
+[v LCD_String_xy@row row `uc  1 p 1 wreg ]
+"133
+[v LCD_String_xy@location location `uc  1 a 1 3 ]
+"131
+[v LCD_String_xy@row row `uc  1 p 1 wreg ]
+[v LCD_String_xy@pos pos `uc  1 p 1 0 ]
+[v LCD_String_xy@msg msg `*.24DCuc  1 p 1 1 ]
+[v LCD_String_xy@row row `uc  1 p 1 2 ]
+"148
+} 0
+"121
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@msg msg `*.26DCuc  1 p 2 6 ]
+"128
+} 0
+"106
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@dat dat `uc  1 p 1 wreg ]
+[v LCD_Char@dat dat `uc  1 p 1 wreg ]
+"108
+[v LCD_Char@dat dat `uc  1 p 1 5 ]
+"119
+} 0
+"162
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"167
+} 0
+"6 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\adc.c
+[v _adc_init adc_init `(v  1 e 1 0 ]
+{
+"15
+} 0
+"29 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\timer.c
+[v _Timer1_start Timer1_start `(v  1 e 1 0 ]
+{
+"38
+} 0
+"53 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\LCD.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"62
+} 0
+"77
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
+"79
+[v LCD_Command@cmd cmd `uc  1 p 1 5 ]
+"90
+} 0
+"431 C:\Users\Usuario\OneDrive\Escritorio\fulvio_c\estados.X\main.c
+[v _Timer1_ISR Timer1_ISR `II(v  1 e 1 0 ]
+{
+"465
+} 0
